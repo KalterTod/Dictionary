@@ -12,6 +12,7 @@
 		8659ADBF1999313C003B88D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8659ADBD1999313C003B88D2 /* Main.storyboard */; };
 		8659ADC11999313C003B88D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8659ADC01999313C003B88D2 /* Images.xcassets */; };
 		8659ADCD1999313C003B88D2 /* Dictionary2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659ADCC1999313C003B88D2 /* Dictionary2Tests.swift */; };
+		86F1DC8619993DA400429831 /* AppDelegate in Resources */ = {isa = PBXBuildFile; fileRef = 86F1DC8519993DA400429831 /* AppDelegate */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		8659ADC61999313C003B88D2 /* Dictionary2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dictionary2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8659ADCB1999313C003B88D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8659ADCC1999313C003B88D2 /* Dictionary2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary2Tests.swift; sourceTree = "<group>"; };
+		86F1DC8519993DA400429831 /* AppDelegate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AppDelegate; path = ../../Dictionary/AppDelegate; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				8659ADB91999313C003B88D2 /* AppDelegate.swift */,
+				86F1DC8519993DA400429831 /* AppDelegate */,
 				8659ADBB1999313C003B88D2 /* ViewController.swift */,
 				8659ADBD1999313C003B88D2 /* Main.storyboard */,
 				8659ADC01999313C003B88D2 /* Images.xcassets */,
@@ -191,6 +194,7 @@
 			files = (
 				8659ADBF1999313C003B88D2 /* Main.storyboard in Resources */,
 				8659ADC11999313C003B88D2 /* Images.xcassets in Resources */,
+				86F1DC8619993DA400429831 /* AppDelegate in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				8659ADD21999313C003B88D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8659ADD31999313C003B88D2 /* Build configuration list for PBXNativeTarget "Dictionary2Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				8659ADD51999313C003B88D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
